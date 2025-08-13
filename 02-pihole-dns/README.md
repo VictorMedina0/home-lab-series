@@ -5,8 +5,8 @@ Set up **Pi-hole** on an Ubuntu Server VM (Proxmox) and made it the primary DNS 
 
 ## Result
 - Pi-hole running and listening on **TCP/UDP :53**  
-- Reserved IP **<PIHOLE_IP>** with hostname **pihole** in OPNsense DHCP (static mapping)  
-- DHCP hands out **<PIHOLE_IP>** as DNS to clients  
+- Reserved IP **192.168.50.65** with hostname **pihole** in OPNsense DHCP (static mapping)  
+- DHCP hands out **192.168.50.65** as DNS to clients  
 - Name resolution and ad-blocking verified on multiple devices
 
 ## VM Specs (Proxmox)
@@ -17,4 +17,3 @@ Set up **Pi-hole** on an Ubuntu Server VM (Proxmox) and made it the primary DNS 
 - DoH/DoT for upstream privacy
 - Conditional forwarding for local names
 - Grafana/Prometheus for DNS metrics
-
