@@ -17,11 +17,6 @@ This doc captures my deployment of **Tailscale** in my homelab with an **Exit No
 - `setup.md` – step-by-step setup I performed
 - `troubleshooting.md` – issues I hit and how I fixed them
 
-## Screenshots (placeholders)
-- `screenshots/tailscale-status.png`
-- `screenshots/admin-approve-routes.png`
-- `screenshots/client-select-exit-node.png`
-- `screenshots/sysctl-forwarding.png`
 
 ## Security Notes
 - Keep the exit-node VM patched.
